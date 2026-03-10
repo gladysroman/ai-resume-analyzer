@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #6495ED;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app-container {
+  width: 600px;
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+#chat-box {
+  height: 400px;
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.message {
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  max-width: 80%;
+  white-space: pre-wrap;
+}
+
+.user {
+  background: #d7e7ff;
+  margin-left: auto;
+}
+
+.ai {
+  background: #f1f1f1;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #4a7cff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #355edb;
+}
+
+.upload-row {
+  margin-top: 15px;
+}
+
+.analysis-card {
+  background: #ffffff;
+  border-left: 4px solid #4a7cff;
+  padding: 16px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.analysis-card h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.analysis-card pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.copy-btn {
+  float: right;
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  font-size: 12px;
+  background: #4a7cff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background: #355edb;
+}
+
+.file-message {
+  background: #e0f7fa;
+  border-left: 4px solid #00bcd4;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.file-name {
+  font-weight: bold;
+}
+
+.file-type {
+  font-size: 12px;
+  color: #666;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #444;
+}
